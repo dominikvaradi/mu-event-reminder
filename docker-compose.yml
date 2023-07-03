@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  mu-event-reminder:
+    build: .
+    image: mu-event-reminder:latest
+    env_file:
+      - .env
